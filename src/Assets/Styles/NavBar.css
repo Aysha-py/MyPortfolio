@@ -1,0 +1,46 @@
+#nav-container{
+	background-color: #474E68;
+	display: grid;
+	grid-template-columns: 1fr 1fr 0.3fr;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: rgb(229, 212, 212);
+	cursor: pointer;
+	font-size: 18px;
+
+}
+.nav-list ul{
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+.nav-list li{
+padding:5px 30px;
+border-radius: 10px;
+border: 1px solid;
+color: #fff;
+
+}
+.nav-list li:hover{
+	color:#ffff ;
+	background:#474E68;
+}
+
+.navlist-mobile{
+	margin-left: auto;
+}
+.nav-button button{
+	padding:15px 30px;
+border-radius: 10px;
+transition: background 5ms all;
+
+}
+.nav-button button:hover{
+background: #474E68;
+}
+@media only screen and (max-width: 699px) {
+.nav-button{
+	display: none;
+}
+}

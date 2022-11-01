@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #404258;
+	margin: 1rem;
+}
+
+@import url(../Styles/NavBar.css);
+@import url(../Styles/LandingPage.css);
